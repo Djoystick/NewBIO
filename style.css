@@ -1,74 +1,74 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fff8f2;
-  color: #333;
-}
-
-header {
-  background-color: #f0c29a;
-  padding: 15px 0;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-header img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #8c4b1f;
-}
-
-main {
-  padding: 30px;
-  max-width: 900px;
-  margin: auto;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0c29a;
-  color: #333;
-  font-size: 14px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-.card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
-}
-
-@media (max-width: 768px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f2;
+    color: #333;
   }
-
+  
+  header {
+    background-color: #f0c29a;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
   header img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
   }
-}
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: #8c4b1f;
+  }
+  
+  main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0c29a;
+    color: #333;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    header img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
